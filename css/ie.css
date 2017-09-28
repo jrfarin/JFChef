@@ -1,0 +1,6 @@
+.text-2 {background:url(../images/bg-text.jpg) 0 0 no-repeat;}
+.text-2 strong {background:url(../images/bg-text.jpg) 0 0 no-repeat;}
+.text-3 {background:url(../images/bg-text.jpg) 0 0 no-repeat;}  
+.text-4 {background:url(../images/bg-text.jpg) 0 0 no-repeat;}  
+.text-5 {background:url(../images/bg-text.jpg) 0 0 no-repeat;}
+.circle-green, .circle-white, .circle-red {behavior: url(js/PIE.htc); position:relative;}

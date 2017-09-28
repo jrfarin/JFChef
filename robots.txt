@@ -1,0 +1,16 @@
+# robotstxt.org/
+
+User-agent: *
+Disallow: /images/
+
+User-agent: Googlebot-Image
+Disallow: / 
+
+User-agent: *
+Disallow: /privacidad.html
+
+User-agent: *
+Disallow: /*.pdf$
+
+User-agent: *
+Disallow: /novapal/

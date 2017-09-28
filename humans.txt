@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <WEB COLOR STUDIO> -- <DISE„O Y DESARROLLO> -- <@webcolorstudio>
+
+# THANKS
+
+    <Lena Hjorth & Pep>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, 
