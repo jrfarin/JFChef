@@ -7,8 +7,8 @@
 }
 
 .sf-menu > li {
-	float:left; 
-	border:none; 
+	float:left;
+	border:none;
 	font-size:22px;
 	line-height:67px;
 	text-transform:uppercase;
@@ -19,14 +19,14 @@
 .sf-menu > li.last-item {padding:0; margin:0; background:none;}
 
 .sf-menu > li > a {
-	display:block; 
+	display:block;
 	color:#fff;
 	text-decoration:none;
 	padding:0;
 	background:none;
 }
 
-.sf-menu > li:hover, .sf-menu > li.sfHover, .sf-menu .current { 
+.sf-menu > li:hover, .sf-menu > li.sfHover, .sf-menu .current {
 }
 
 .sf-menu li a:hover, .sf-menu li.sfHover a, .sf-menu .current a {color:#d77831;}
@@ -36,7 +36,7 @@
 .sf-menu ul {
 	display:none;
 	position:absolute;
-	width:115px; /* left offset of submenus need to match (see below) */
+	width:130px; /* left offset of submenus need to match (see below) */
 	padding:10px 21px 11px 19px;
 	background:#fff9d6;
 	z-index:200;
@@ -44,13 +44,14 @@
 
 .sf-menu ul li {
 	border:none;
-	width:105px;
+	width:130px;
 	font-size:14px;
 	line-height:31px;
 	text-transform:none;
 	padding:0 0 0 10px;
 	margin:0;
-	background:url(../images/border-bot.gif) 0 bottom repeat-x;
+	/*background:url(../images/border-bot.gif) 0 bottom repeat-x;*/
+	border-bottom: 1px solid #ededed;
 }
 
 .sf-menu ul li.last-item {background:none;}
@@ -78,7 +79,7 @@ ul.sf-menu li li.sfHover ul {
 
 /* sub-menu a */
 
-.sf-menu li:hover li a, 
+.sf-menu li:hover li a,
 .sf-menu li.sfHover li a {
 	font-family:Arial, Helvetica, sans-serif;
 	display:block;
@@ -101,13 +102,13 @@ ul.sf-menu li li.sfHover ul {
 .sf-menu li li li.last-item {background:none;}
 .sf-menu li li.sfHover li a {
 	color:#010001;
-	background:none; 
+	background:none;
 	padding:0px;
 }
 
 /* hover sub-menu ul li */
 
-.sf-menu ul li ul li:hover, .sf-menu ul li ul li.sfHover  { 
+.sf-menu ul li ul li:hover, .sf-menu ul li ul li.sfHover  {
 }
 .sf-menu li li.sfHover li a:hover {background:none; color:#d77831;}
 .sf-menu li:hover, .sf-menu li.sfHover,

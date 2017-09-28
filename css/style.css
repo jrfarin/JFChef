@@ -6,11 +6,11 @@ mark, rp, rt, ruby, summary, time {display:inline;}
 /* Global properties ======================================================== */
 html {width:100%; overflow:auto;}
 
-body { 	 
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:100%; 
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size:100%;
 	color:#bcbcbc;
-	font-size:12px;
+	font-size:14px !important;
 	line-height:18px;
 	min-width:1005px;
 	background:url(../images/bg.jpg) center 0 no-repeat #010101 fixed;
@@ -19,7 +19,7 @@ body {
 .bg {background:url(../images/bg1.jpg) center 0 no-repeat #010101 fixed;}
 
 .main {
-	width:1005px; 	
+	width:1005px;
 	padding:0;
 	margin:0 auto;
 }
@@ -100,14 +100,14 @@ p {margin-bottom:22px;}
 
 .img-indent-bot {margin-bottom:25px;}
 .img-indent {float:left; margin:0 20px 0px 0;}
-.img-indent1 {float:left; margin:0 30px 0px 0;}	
+.img-indent1 {float:left; margin:0 30px 0px 0;}
 .img-indent2 {float:left; margin:0 13px 0px 0;}
 .img-indent3 {float:left; margin:0 10px 0px 0;}
-.img-indent-r {float:right; margin:0 0px 0px 40px;}	
+.img-indent-r {float:right; margin:0 0px 0px 40px;}
 
 .prev-indent-bot {margin-bottom:10px;}
-.prev-indent {float:left; margin:0 17px 0px 0;}	
-.prev-box {float:left; margin-bottom:8px;}	
+.prev-indent {float:left; margin:0 17px 0px 0;}
+.prev-box {float:left; margin-bottom:8px;}
 
 .border {border:3px solid #000;}
 .border2 {border:1px solid #000;}
@@ -117,15 +117,15 @@ a {cursor:pointer;}
 .list-1 li a,
 .list-2 li a,
 .link,
-.logo {text-decoration:none;}	
+.logo {text-decoration:none;}
 
 /*********************************header*************************************/
 header {
-	width:100%; 
-	height:154px; 
-	margin:0; 
-	position:relative; 
-	z-index:2; 
+	width:100%;
+	height:154px;
+	margin:0;
+	position:relative;
+	z-index:2;
 	background:url(../images/tail-top.jpg) 0 0 repeat-y;
 }
 .spacing-header {margin:68px 0 14px;}
@@ -244,10 +244,10 @@ span h3{color:#d77831;}
 	-webkit-background-clip: padding-box;
 }
 .button {
-	display:inline-block; 
-	font-size:13px; 
-	line-height:30px; 
-	color:#0c0c0c; 
+	display:inline-block;
+	font-size:13px;
+	line-height:30px;
+	color:#0c0c0c;
 	padding:0 17px 0 16px;
 	text-decoration:none;
 	background:#fff;
@@ -255,10 +255,10 @@ span h3{color:#d77831;}
 .button:hover {background:#d77831; color:#fff;}
 
 .button-1 {
-	display:inline-block; 
-	font-size:13px; 
-	line-height:36px; 
-	color:#fff; 
+	display:inline-block;
+	font-size:13px;
+	line-height:36px;
+	color:#fff;
 	padding:0 19px;
 	text-decoration:none;
 	background:#191919;
@@ -275,8 +275,8 @@ span h3{color:#d77831;}
 .list-2 li a:hover {text-decoration:underline;}
 
 .price-list li {
-	width: 100%; 
-	overflow: hidden; 
+	width: 100%;
+	overflow: hidden;
 	vertical-align: top;
 	font-size:12px;
 	line-height:30px;
@@ -284,7 +284,7 @@ span h3{color:#d77831;}
 }
 .price-list li strong {
 	background:url(../images/line-hor.gif) 0 19px repeat-x;
-	display: block; 
+	display: block;
 	overflow:hidden;
 }
 .price-list li span {
@@ -298,16 +298,16 @@ span h3{color:#d77831;}
 }
 .price-list li a:hover {color:#fff;}
 
-.link:hover {text-decoration:underline;} 
+.link:hover {text-decoration:underline;}
 
 .link-1 {display:inline-block; font-size:14px; padding-right:8px; background:url(../images/marker-3.gif) right 8px no-repeat;}
-.link-1:hover {color:#fff;} 
+.link-1:hover {color:#fff;}
 
-.text-1 {display:block; font-size:18px; line-height:22px; color:#d77831;} 
+.text-1 {display:block; font-size:18px; line-height:22px; color:#d77831;}
 .text-2 {display:block; font-size:24px; line-height:29px; font-weight:400; letter-spacing:-1px; color:#000;}
 .text-2 strong {display:inline-block; font-weight:400; margin-top:-5px;}
-.text-3 {display: block; margin-top: -5px; font-size: 18px; line-height: 24px; font-weight: 400; color: #d77831;}  
-.text-4 {display:block; font-size:16px; line-height:24px; font-weight:400; color:#191919;}  
+.text-3 {display: block; margin-top: -5px; font-size: 18px; line-height: 24px; font-weight: 400; color: #d77831;}
+.text-4 {display:block; font-size:16px; line-height:24px; font-weight:400; color:#191919;}
 .text-5 {
 	display: block;
 	font-size: 14px;
@@ -315,12 +315,12 @@ span h3{color:#d77831;}
 	font-weight: 400;
 	color: #a1a1a1;
 	text-indent: 0px;
-}  
-.text-6 {display:inline-block; font-size:12px; line-height:20px; color:#bcbcbc;} 
-.text-7 {display:inline-block; font-size:13px; line-height:20px; color:#bcbcbc;} 
+}
+.text-6 {display:inline-block; font-size:12px; line-height:20px; color:#bcbcbc;}
+.text-7 {display:inline-block; font-size:13px; line-height:20px; color:#bcbcbc;}
 .text-8 {display:block; font-size:30px; line-height:36px; color:#fff; font-weight:400;}
 .text-8 strong {display:inline-block; margin-top:-5px;}
-.text-9 {display:block; font-size:66px; line-height:36px; color:#d77831; font-weight:400; text-indent:15px;} 
+.text-9 {display:block; font-size:66px; line-height:36px; color:#d77831; font-weight:400; text-indent:15px;}
 
 .hours {display:block; font-size:13px; line-height:18px; color:#dadada;}
 
@@ -433,7 +433,7 @@ footer a.current, .orange {color:#d77831;}
 #faded {position:relative; height:304px;}
 #faded  li {overflow:hidden; width:100%;}
 
-.next {	
+.next {
 	position: absolute;
 	z-index:100;
     top:-89px;
@@ -464,7 +464,7 @@ footer a.current, .orange {color:#d77831;}
 	margin:0;
 	padding:0;
 }
-#contact-form .success {padding-bottom:5px;}	
+#contact-form .success {padding-bottom:5px;}
 #contact-form textarea, #contact-form input {
 	margin:0;
 	font-size:1em;
@@ -482,20 +482,20 @@ footer a.current, .orange {color:#d77831;}
 	overflow: auto;
 	width: 244px;
 	height: 320px;
-}	
+}
 #contact-form label {
 	min-height:41px;
 	display:block;
-}	
+}
 #contact-form label.message {
 	min-height: 320px;
-}	
+}
 #contact-form .error, #contact-form .empty, #contact-form .success {
 	display:none;
-}	
+}
 #contact-form .button {
 	margin-left:8px;
-}	
+}
 #contact-form .error, #contact-form .empty {
 	color:red;
 	padding:5px 0;
@@ -532,7 +532,7 @@ footer a.current, .orange {color:#d77831;}
 	width: 84px;
 	position: absolute;
 	z-index: 100;
-	
+
 }
 .tw:hover{background-image: url(../images/twitter.png);}
 
@@ -540,5 +540,25 @@ footer a.current, .orange {color:#d77831;}
 	background-image: url(../images/plato.jpg);
 	background-repeat: no-repeat;
 	background-position: center 0px;
-	height: 870px;	
+	height: 870px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+table, table td {
+	padding:0;
+	border:none;
+	border-collapse:collapse;
+}
+img {
+	vertical-align:top;
+}
+embed {
+	vertical-align:top;
+}
+#mostrar {
+	display: none;
 }
